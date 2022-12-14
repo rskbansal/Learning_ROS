@@ -1,8 +1,8 @@
 # Learning ROS - OOP Special Project
 - [Installing the right Operating System](#installing-the-right-operating-system)
 - [Installing ROS](#installing-ros)
-- Why Terminator ?
-- 1st Implementation : Talker-Listener
+- [Why Terminator ?](#why-terminator)
+- [1st Implementation : Talker-Listener](#1st-implementation--talker-listener)
 
 ## Installing the right Operating System
 Robotics Development relies heavily on **Linux**. It is recommended to install [Ubuntu 20.04 LTS (Focal Fossa)](https://releases.ubuntu.com/focal/). You can either dual boot your computer or install it in a virtual machine.<br><br>
@@ -20,3 +20,4 @@ $ sudo apt install terminator
 ```
 
 ## 1st Implementation : Talker-Listener
+This is a simple implementation of ROS. It is a good starting point for learning ROS.
