@@ -20,6 +20,12 @@ It is recommended to install **Terminator**. It is a terminal emulator that allo
 ```bash
 $ sudo apt install terminator
 ```
+Some shortcuts :-
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>E</kbd> : Split the current terminal horizontally
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd> : Split the current terminal vertically
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd> : Close the current terminal
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> : Copy the selected text
+- <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> : Paste the clipboard text
 
 ## 1st Implementation : Talker-Listener
 This is a simple implementation of ROS. It is a good starting point for learning ROS.
