@@ -51,13 +51,13 @@ $ rosrun rospy_tutorials listener
 Now, you can see that the `listener` node is receiving the messages published by the `talker` node.
 
 ### `rostopic`
-Open a new terminal and run the following command to see the list of topics.
+Open a new terminal and run the following command to see the list of running topics.
 ```bash
 $ rostopic list
 ```
 ![](./assets/img/rostopic.png)
 ### `rqt_graph`
-Open a new terminal and run the following command to see the graph of the nodes and topics.
+Open a new terminal and run the following command to see the graph view of the running nodes and topics.
 ```bash
 $ rqt_graph
 ```
