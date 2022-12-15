@@ -47,8 +47,7 @@ Open a new terminal and run the following command to start the `listener` node. 
 ```bash
 $ rosrun rospy_tutorials listener
 ```
-![](./assets/img/listener.gif   )
-Now, you can see that the `listener` node is receiving the messages published by the `talker` node.
+![](./assets/img/listener.gif)
 
 ### `rostopic`
 Open a new terminal and run the following command to see the list of running topics.
