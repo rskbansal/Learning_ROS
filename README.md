@@ -30,6 +30,7 @@ Some shortcuts :-
 ## 1st Implementation : Talker-Listener
 This is a simple implementation of ROS. It is a good starting point for learning ROS.
 
+
 ## References
 - [ROS Wiki](https://wiki.ros.org/)
 - [Programming Robots with ROS](/Programming_Robots_with_ROS.pdf)
@@ -38,3 +39,4 @@ This is a simple implementation of ROS. It is a good starting point for learning
 - Rhythm Bansal (2021A7PS2430G)
 - Krishna Sethiya (2021A7PS1440G)
 - Shubham Shah (2021A7PS2444G)
+- Jatin Dahiya (2021A7PS2067G)
