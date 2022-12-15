@@ -28,8 +28,40 @@ Some shortcuts :-
 - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> : Paste the clipboard text
 
 ## 1st Implementation : Talker-Listener
-This is a simple implementation of ROS. It is a good starting point for learning ROS.
+Now, we can move on to running our first nodes. Lets create a publisher and a subscriber! Our `talker` will be printing "hello world" with timestamps at regular intervals and our `listener` will capture those messages at the same time.
 
+### `roscore`
+Start a ***roscore*** instance in a new terminal. This will start a master node which will be responsible for managing all the nodes in the system.
+```bash
+$ roscore
+```
+![](./assets/img/roscore.png)
+### `talker`
+Open a new terminal and run the following command to start the `talker` node. This will start a publisher node which will be publishing messages at regular intervals.
+```bash
+$ rosrun rospy_tutorials talker
+```
+![](./assets/img/talker.gif)
+### `listener`
+Open a new terminal and run the following command to start the `listener` node. This will start a subscriber node which will be listening to the messages published by the `talker` node.
+```bash
+$ rosrun rospy_tutorials listener
+```
+![](./assets/img/listener.gif   )
+Now, you can see that the `listener` node is receiving the messages published by the `talker` node.
+
+### `rostopic`
+Open a new terminal and run the following command to see the list of topics.
+```bash
+$ rostopic list
+```
+![](./assets/img/rostopic.png)
+### `rqt_graph`
+Open a new terminal and run the following command to see the graph of the nodes and topics.
+```bash
+$ rqt_graph
+```
+![](./assets/img/rqt_graph.png)
 
 ## References
 - [ROS Wiki](https://wiki.ros.org/)
