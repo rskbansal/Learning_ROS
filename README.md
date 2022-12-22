@@ -1,7 +1,7 @@
 # Learning ROS - OOP Special Project
 - [Installing the right Operating System](#installing-the-right-operating-system)
 - [Installing ROS](#installing-ros)
-- [Why Terminator ?](#why-terminator--)
+- [Why Terminator ?](#why-terminator-)
 - [1st Implementation : Talker-Listener](#1st-implementation--talker-listener)
 - [References](#references)
 - [Credits](#credits)
